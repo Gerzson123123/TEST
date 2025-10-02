@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="asd">asd</p>
+    <a href="szornyeteg.png" download id="klikk">klikk</a>
+    <script>
+        document.body.onload = () => {
+            for(let i = 0; i < 5; i++){
+                document.getElementById("klikk").click();
+            }
+        }
+    </script>
+</body>
+</html>
